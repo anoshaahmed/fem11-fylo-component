@@ -97,7 +97,7 @@ select {
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 0.875rem;
-    background: url(images/bg-mobile.png) no-repeat;
+    background: var(--clr-v-dark-blue) url(images/bg-mobile.png) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -259,6 +259,12 @@ main {
     font-weight: var(--fw-bold);
 }
 
+@media (max-width: 21em) {
+    .attribution {
+        margin-top: 1.5rem;
+    }
+}
+
 @media (min-width: 60em) {
     body {
         padding: 0 16.25rem;
@@ -343,20 +349,8 @@ main {
     }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 65em) {
     body {
-        /* background: var(--clr-v-dark-blue) url(images/bg-desktop.png) no-repeat bottom; */
-        background-size: cover;
+        background: var(--clr-v-dark-blue) url(images/bg-desktop.png) no-repeat bottom;
     }
 }
-
-@media (max-width: 21em) {
-    .attribution {
-        margin-top: 1.5rem;
-    }
-}
-
-
-
-
-
