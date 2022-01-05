@@ -352,5 +352,6 @@ main {
 @media (min-width: 65em) {
     body {
         background: var(--clr-v-dark-blue) url(images/bg-desktop.png) no-repeat bottom;
+        background-size: contain;
     }
 }
