@@ -158,6 +158,15 @@ main {
     border-radius: 10px;
 }
 
+.icon:hover {
+    cursor: pointer;
+    background-color: var(--clr-gradient-light);
+}
+
+.icon:active {
+    background-color: var(--clr-gradient-dark);
+}
+
 .remaining {
     position: absolute;
     background-color: white;
