@@ -58,21 +58,7 @@ I learned to:
 - make a progress bar
 - use `clip-path ` property
 - put icons in a list
-- add a "hidden-title" because I needed an `<h1>` on my page for accessibility purposes, but the page didn't require one, so I added one in my code that wouldn't visibly show on the webpage, but would to a screen reader. I used the following properties:
-```css
-.hidden-title {
-    font-size: 0;
-    width: 1px;
-    height: 1px;
-    display: inline-block;
-    overflow: hidden;
-    position: absolute!important;
-    border: 0!important;
-    padding: 0!important;
-    margin: 0!important;
-    clip: rect(1px,1px,1px,1px);
-}
-```
+- add a "hidden-title" because I needed an `<h1>` on my page for accessibility purposes, but the page didn't require one, so I added one in my code that wouldn't visibly show on the webpage, but would to a screen reader
 - use the `::after` property to create a shadow/reflection
 ```css
 main {
