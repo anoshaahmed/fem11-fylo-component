@@ -41,7 +41,7 @@ The mobile design VS My mobile solution<br>
 ### Links
 
 - Solution URL: [FrontEnd Mentor: My Solution](https://www.frontendmentor.io/solutions/fylo-data-storage-component-flexbox-mobilefirst-responsive-LeY1jA7DW)
-- Live Site URL: [GitHub Page: Fem Fylo Component](https://github.com/anoshaahmed/fem-fylo-component/)
+- Live Site URL: [GitHub Page: Fem Fylo Component](https://github.com/anoshaahmed/fem11-fylo-component/)
 
 ## My process
 
